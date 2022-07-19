@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4530D8C1"
+    android:overScrollMode="ifContentScrolls"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbarDefaultDelayBeforeFade="8000"
+    android:scrollbarFadeDuration="500"
+    android:scrollbarSize="14dp"
+    android:textAlignment="center"
+    android:scrollbarStyle="outsideOverlay"
+    android:scrollbars="vertical"
+    android:verticalScrollbarPosition="right"
+    tools:context=".HospitalPage"
+    android:gravity="center_horizontal">
+
+    <ImageButton
+        android:id="@+id/bip"
+        android:layout_width="150dp"
+        android:layout_height="141dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/paras"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.083" />
+
+    <ImageButton
+        android:id="@+id/bip2"
+        android:layout_width="150dp"
+        android:layout_height="141dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/aiims_patna_opd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.083" />
+
+    <ImageButton
+        android:id="@+id/bip3"
+        android:layout_width="150dp"
+        android:layout_height="141dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/nalanda"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.477" />
+
+    <ImageButton
+        android:id="@+id/bip4"
+        android:layout_width="150dp"
+        android:layout_height="141dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/medanta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.477" />
+
+    <ImageButton
+        android:id="@+id/bip5"
+        android:layout_width="150dp"
+        android:layout_height="141dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/igms"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.876" />
+
+    <ImageButton
+        android:id="@+id/bip6"
+        android:layout_width="150dp"
+        android:layout_height="141dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ford"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.858"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.876" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="151dp"
+        android:layout_height="32dp"
+        android:background="#5BFFB300"
+        android:fontFamily="sans-serif-black"
+        android:paddingLeft="20dp"
+        android:text="AIIMS Patna"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.131"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.215" />
+
+    <TextView
+        android:id="@+id/textView987"
+        android:layout_width="151dp"
+        android:layout_height="32dp"
+        android:background="#7EBBDEFB"
+        android:fontFamily="sans-serif-black"
+        android:paddingLeft="20dp"
+        android:text="NMCH Patna"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.547" />
+
+    <TextView
+        android:id="@+id/textView789"
+        android:layout_width="151dp"
+        android:layout_height="32dp"
+        android:background="#4FF8BBD0"
+        android:fontFamily="sans-serif-black"
+        android:paddingLeft="20dp"
+        android:text="Medanta Patna"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.546" />
+
+    <TextView
+        android:id="@+id/textView765"
+        android:layout_width="151dp"
+        android:layout_height="32dp"
+        android:background="#A648552A"
+        android:fontFamily="sans-serif-black"
+        android:paddingLeft="20dp"
+        android:text="IGIMS Patna"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.879" />
+
+    <TextView
+        android:id="@+id/textView9874"
+        android:layout_width="151dp"
+        android:layout_height="32dp"
+        android:background="#36C80C41"
+        android:fontFamily="sans-serif-black"
+        android:paddingLeft="20dp"
+        android:text="Ford Patna"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.879" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="146dp"
+        android:layout_height="34dp"
+        android:background="#9C4A4E4E"
+        android:fontFamily="sans-serif-black"
+        android:paddingLeft="45dp"
+        android:paddingTop="4dp"
+        android:text="Paras "
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.212" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
